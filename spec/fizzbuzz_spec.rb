@@ -24,4 +24,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(20)).to eq 'buzz'
   end
 
+  it 'returns number when number passed is not multiple of 5 or 3' do
+    expect(fizzbuzz(7)).to eq 7
+    expect(fizzbuzz(13)).to eq 13
+  end
+
 end
